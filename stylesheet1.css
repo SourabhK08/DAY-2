@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    background-color: white;
+    
+}
+
+#navbar{
+    height: 100vh;
+    width: 25%;
+}
+
+#main-doc{
+    width: 75%;
+    height: 100vh;
+}
+.navbar header{
+    font-weight: bold;
+    padding: 30px;
+    text-align: left;
+    font-size: 1.2 rem;
+}
+section header{
+    background:black ;
+    color: antiquewhite;
+    padding: 5px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    padding: 10px;
+    line-height: 2.5;
+    color: black
+}
+
+.nav-link:hover{
+    background: black;
+    color: white;
+}
